@@ -27,7 +27,7 @@ def main() -> None:
             ix2 = stoi[ch2]
             N[ix1, ix2] += 1
 
-    # Visualize the bigram count matrix
+    # Visualized the bigram count matrix 
     fig, ax = plt.subplots(figsize=(16, 16))
     ax.imshow(N, cmap="Blues")
 
@@ -44,3 +44,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
